@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div class="container" style="width: 40%">
+    {% for news in news_list %}
+        <div class="row mb-5">
+            <div class="col text-center">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">{{news.title}}</h5>
+                    <p class="card-text">{{news.content}}</p>
+                    <a href="{{news.url}}" class="card-link" target="blank">Visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+
+{% endblock %}
