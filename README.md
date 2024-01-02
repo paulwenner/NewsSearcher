@@ -19,8 +19,8 @@ To run the NEWSSEARCHER application locally, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Obtain an API key from [NewsAPI](https://newsapi.org/) and replace `"YOUR_API_KEY"` in the code with your actual API key.
-4. Run the Flask application using `python app.py`.
+3. Obtain an API key from [NewsAPI](https://newsapi.org/) and replace `"AddKeyHere"` in the code with your actual API key.
+4. Run the Flask application using `python --app project.py run`.
 5. Open a web browser and navigate to `http://localhost:5000` to use the application.
 
 ## Usage:
